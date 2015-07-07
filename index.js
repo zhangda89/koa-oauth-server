@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-var NodeOAuthServer = require('oauth2-server');
+var NodeOAuthServer = require('node-oauth2-server-gowhich');
 var thenify = require('thenify');
 
 module.exports = OAuthServer;

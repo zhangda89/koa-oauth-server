@@ -6,7 +6,7 @@ This is the koa wrapper for [oauth2-server](https://github.com/thomseddon/node-o
 
 ## Installation
 
-    $ npm install koa-oauth-server
+    $ npm install koa-oauth-server-gowhich
 
 ## Quick Start
 
@@ -16,7 +16,7 @@ The following example uses `koa-bodyparser` but you may opt for an alternative l
 ```js
 var koa = require('koa');
 var bodyparser = require('koa-bodyparser');
-var oauthserver = require('koa-oauth-server');
+var oauthserver = require('koa-oauth-server-gowhich');
 
 var app = koa();
 
@@ -47,7 +47,7 @@ var bodyparser = require('koa-bodyparser');
 var koa = require('koa');
 var model = require('koa-oauth-server/node_modules/oauth2-server/examples/memory/model');
 var mount = require('koa-mount');
-var oauthserver = require('koa-oauth-server');
+var oauthserver = require('koa-oauth-server-gowhich');
 
 // Create a new koa app.
 var app = koa();
